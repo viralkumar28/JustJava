@@ -5,15 +5,13 @@ public class twenty {
         int a = 0 ;
         int b = 1;
         int c = sc.nextInt();
-        System.out.print(a+" ");
-        System.out.print(b);
-        int d = a+b;
-        
-        for(int i=0;i<c;i++){
-        
+       
+        for(int i=1;i<=c;++i){
+            System.out.print(a+" ");
+            int d = a+b;
+                a=b;
+                b=d;
         }
-        System.out.println();
-
         sc.close();
     }
 }
