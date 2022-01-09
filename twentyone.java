@@ -1,4 +1,3 @@
- import java.lang.*;
 import java.util.*;
 public class twentyone {
     public static void main(String args[]) {
@@ -8,6 +7,7 @@ public class twentyone {
         int c = sc.nextInt();
         max(a,b,c);
         min(a,b,c);
+        sc.close();
     }
     static void max(int a,int b,int c){
         if(a>b){
