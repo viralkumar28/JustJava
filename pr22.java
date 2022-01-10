@@ -12,7 +12,7 @@ public class pr22 {
         if(num % 2==0){
             System.out.println("even");
         }else{
-            System.out.println("odd");
+            System.out.println("odd ");
         }
     }
 }
