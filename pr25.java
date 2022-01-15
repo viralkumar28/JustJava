@@ -5,7 +5,9 @@ public class pr25 {
         Scanner sc = new Scanner(System.in);
         String fr = sc.next();
         switch(fr){
-            case "mango" -> System.out.println("King of fruits");
+            case "mango": 
+             System.out.println("King of fruits");
+             break;
         }
         sc.close();
     }
