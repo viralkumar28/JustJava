@@ -7,7 +7,6 @@ public class pr25 {
         switch(fr){
             case "mango" -> 
              System.out.println("King of fruits");
-             break;
         }
         sc.close();
     }
