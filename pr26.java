@@ -5,5 +5,6 @@ public class pr26 {
         Scanner in = new Scanner(System.in);    
         
         
+        in.close();
     }
 }
