@@ -7,4 +7,7 @@ public class pr26 {
         
         in.close();
     }
+    static void fun(int ...v){
+        
+    }
 }
