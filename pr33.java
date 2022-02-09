@@ -15,7 +15,4 @@ public class pr33 {
         }        
 
     }
-    static void lcm(int n,int m){
-        
-    }
 }
