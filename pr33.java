@@ -5,7 +5,6 @@ public class pr33 {
         int n = sc.nextInt();
         int m = sc.nextInt();
         hcf(n,m);
-        lcm(n,m);
         sc.close();
     }
     static void hcf(int n,int m){
