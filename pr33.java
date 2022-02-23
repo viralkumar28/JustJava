@@ -11,6 +11,7 @@ public class pr33 {
         int num=0;
         for(int i=1;i<=num;i++){
             num = n/i;
+            
         }        
 
     }
