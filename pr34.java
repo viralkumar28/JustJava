@@ -14,9 +14,6 @@ public class pr34 {
                 }
         if(i/2==0)
         System.out.println("Not prime");
-
-                
             }
-
        }
 }
