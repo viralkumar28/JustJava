@@ -10,4 +10,4 @@ public class pr35 {
         System.out.println(n);
         sc.close();
     }
-}
+} 
