@@ -7,9 +7,11 @@ class prac1{
         if(c<num){
             if(num%c==0){
                 System.out.println("Not Prime");
-            }
-            c++;
-            
+            }else{
+                c++;
+            } 
+        }else{
+            System.out.println("Prime ");
         }
 
         sc.close();
