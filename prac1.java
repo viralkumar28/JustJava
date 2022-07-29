@@ -4,16 +4,18 @@ class prac1{
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
         int c=2;
-        if(c<num){
+        boolean flag = false;
+        while(c<num){
             if(num%c==0){
                 System.out.println("Not Prime");
-            }else{
+                break;
+            }
                 c++;
-            } 
-        }else{
-            System.out.println("Prime ");
+                flag = true;
         }
-
+        if(flag == true){
+            System.out.println("Prime");
+        }
         sc.close();
     }
 }
