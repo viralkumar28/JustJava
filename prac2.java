@@ -13,5 +13,6 @@ public class prac2 {
         }
         sc.close();
 
+        
     }
 }
