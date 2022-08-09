@@ -2,9 +2,12 @@ import java.util.*;
 class prac3{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //  String str = sc.nextLine();
-        float marks = 2342.23f;
-        long num = 123353769876543201L;
+        int n = sc.nextInt();
+       if(n%2==0){
+        System.out.println("even");
+       }else{
+        System.out.println("odd");
+       }
         sc.close();
     }
 }
