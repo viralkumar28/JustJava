@@ -4,7 +4,7 @@ public class Prac6 {
         Scanner sc = new Scanner(System.in);
 
         String str = sc.nextLine();
-        int k = sc.nextInt();
+        // int k = sc.nextInt();
         System.out.println(str);
         // truncate(str,k);
         sc.close();
