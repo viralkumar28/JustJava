@@ -12,10 +12,12 @@ class Prac8{
             }
             
         }
-        if(num ==0 || num ==1|| temp ==true){
+        if(num ==0 || num ==1){
             System.out.println("Not Prime");
-        }else{
+        }else if(!temp){
             System.out.println("Prime");
+        }else{
+            System.out.println("Not Prime");
         }
         sc.close();
     }
