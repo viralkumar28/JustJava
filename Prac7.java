@@ -4,6 +4,7 @@ public class Prac7 {
         Scanner sc = new Scanner(System.in);
 
         String  str = sc.nextLine();
+        char ch = 'a';
         for(int i = 0; i<str.length();i++){
             
         }
