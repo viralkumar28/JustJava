@@ -8,6 +8,7 @@ public class Prac6 {
     }else{
         System.out.println("Not Alphabet");
     }
+    // System.out.format(null, null, args);
     sc.close();
   }  
 }
