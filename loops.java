@@ -81,14 +81,96 @@ public class loops {
         //     System.out.println();
         // }
 
-        int n = sc.nextInt();
+        // int n = sc.nextInt();
+        // for(int i=1;i<=n;i++){
+        //     for(int j=1;j<=i;j++){
+        //         if((i+j)%2==0){
+        //             System.out.print("1 ");
+        //         }else{
+        //             System.out.print("0 ");
+        //         }
+        //     }
+        //     System.out.println();
+        // }
+
+        // int n =sc.nextInt();
+        // for(int i=1;i<=n;i++){
+        //     for(int j=1;j<=i;j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+        // for(int i = n-1;i>=1;i--){
+        //     for(int j=1;j<=i;j++){
+        //         System.out.print("*");
+        //     }
+        //     System.out.println();
+        // }
+
+        // int n =sc.nextInt();
+        // char ch = 'E';
+        // for(int i=1;i<=n;i++){
+        //     for(int j=1;j<=i ;j++){
+        //         System.out.print(ch);
+        //         ch--;
+        //     }
+        //     System.out.println();
+        // }
+
+        // int n =sc.nextInt();
+        // for(int i=1;i<=n;i++){
+        //     for(int j=1;j<=i;j++){
+        //         System.out.print("* ");
+        //     }
+        //     int spaces = 2*(n-i);
+        //     for(int j=1;j<=spaces;j++){
+        //         System.out.print("  ");
+        //     }
+        //     for(int j=1;j<=i;j++){
+        //         System.out.print("* ");
+        //     }
+        //     System.out.println();
+        // }
+        // for(int i=n;i>=1;i--){
+        //     for(int j=1;j<=i;j++){
+        //         System.out.print("* ");
+        //     }
+        //     int spaces = 2*(n-i);
+        //     for(int j= 1;j<= spaces;j++){
+        //         System.out.print("  ");
+        //     }
+        //     for(int j=1;j<=i;j++){
+        //         System.out.print("* ");
+        //     }
+        //     System.out.println();
+        // }
+
+
+        int n =sc.nextInt();
+        for(int i=n;i>=1;i--){
+            for(int j=1; j<=i;j++){
+                System.out.print("*");
+            }
+            int spaces = 2*(n-i);
+            for(int j=1;j<=spaces;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
+
+            }
+            System.out.println();
+        }
         for(int i=1;i<=n;i++){
             for(int j=1;j<=i;j++){
-                if((i+j)%2==0){
-                    System.out.print("1 ");
-                }else{
-                    System.out.print("0 ");
-                }
+                System.out.print("*");
+            }
+            int spaces = 2*(n-i);
+            for(int j=1;j<=spaces;j++){
+                System.out.print(" ");
+            }
+            for(int j=1;j<=i;j++){
+                System.out.print("*");
             }
             System.out.println();
         }
