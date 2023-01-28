@@ -176,13 +176,12 @@ public class loops {
         // }
 
             int n =sc.nextInt();
-            int m =sc.nextInt();
+            
             for(int i=1;i<=n;i++){
-                int spaces = n-i;
-                for(int j=1;j<=spaces;j++){
+                for(int j=1;j<=n-i;j++){
                     System.out.print(" ");
                 }
-                for(int j=1;j<=m;j++){
+                for(int j=1;j<=5;j++){
                     System.out.print("*");
                 }
                 System.out.println();
