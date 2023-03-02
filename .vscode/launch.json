@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prog2",
+            "request": "launch",
+            "mainClass": "prog2",
+            "projectName": "JustJava_57633b5f"
+        },
+        {
+            "type": "java",
+            "name": "prog1",
+            "request": "launch",
+            "mainClass": "prog1",
+            "projectName": "JustJava_57633b5f"
+        },
+        {
+            "type": "java",
+            "name": "Launch maxminarray",
+            "request": "launch",
+            "mainClass": "maxminarray",
+            "projectName": "JustJava_57633b5f"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringarray",
+            "request": "launch",
+            "mainClass": "stringarray",
+            "projectName": "JustJava_57633b5f"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
