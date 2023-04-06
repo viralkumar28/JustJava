@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "secondlargest",
+            "request": "launch",
+            "mainClass": "secondlargest",
+            "projectName": "JustJava_57633b5f"
+        },
+        {
+            "type": "java",
+            "name": "largest",
+            "request": "launch",
+            "mainClass": "largest",
+            "projectName": "JustJava_57633b5f"
+        },
+        {
+            "type": "java",
+            "name": "findanumber",
+            "request": "launch",
+            "mainClass": "findanumber",
+            "projectName": "JustJava_57633b5f"
+        },
+        {
+            "type": "java",
+            "name": "multilevelarrays",
+            "request": "launch",
+            "mainClass": "multilevelarrays",
+            "projectName": "JustJava_57633b5f"
+        },
+        {
+            "type": "java",
             "name": "prog2",
             "request": "launch",
             "mainClass": "prog2",
