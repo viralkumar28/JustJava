@@ -12,5 +12,6 @@ public class prog3 {
             num /= 10;
         }
         System.out.println("The sum of digits is " + sum);
+        sc.close();
     }
 }

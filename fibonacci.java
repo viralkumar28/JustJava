@@ -11,7 +11,7 @@ public class fibonacci {
     static void fibo(int n){
 
         int a=0,b=1;
-        int sum=0;
+        int sum;
         System.out.print(a+" "+b+" ");
        for(int i=1;i<=n;i++){
             sum=a+b;
