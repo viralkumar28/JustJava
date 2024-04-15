@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "practice1",
+            "request": "launch",
+            "mainClass": "practice1",
+            "projectName": "JustJava_b1eb5188"
+        },
+        {
+            "type": "java",
             "name": "ArrayLists",
             "request": "launch",
             "mainClass": "ArrayLists",
