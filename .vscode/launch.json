@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "five",
+            "request": "launch",
+            "mainClass": "five",
+            "projectName": "JustJava_1d069ec7"
+        },
+        {
+            "type": "java",
+            "name": "four",
+            "request": "launch",
+            "mainClass": "four",
+            "projectName": "JustJava_1d069ec7"
+        },
+        {
+            "type": "java",
+            "name": "three",
+            "request": "launch",
+            "mainClass": "three",
+            "projectName": "JustJava_1d069ec7"
+        },
+        {
+            "type": "java",
+            "name": "second",
+            "request": "launch",
+            "mainClass": "second",
+            "projectName": "JustJava_1d069ec7"
+        },
+        {
+            "type": "java",
+            "name": "first",
+            "request": "launch",
+            "mainClass": "first",
+            "projectName": "JustJava_1d069ec7"
+        },
+        {
+            "type": "java",
             "name": "practice1",
             "request": "launch",
             "mainClass": "practice1",
