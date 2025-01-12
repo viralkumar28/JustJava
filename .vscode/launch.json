@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Factors",
+            "request": "launch",
+            "mainClass": "Factors",
+            "projectName": "JustJava_1d069ec7"
+        },
+        {
+            "type": "java",
+            "name": "eleven",
+            "request": "launch",
+            "mainClass": "eleven",
+            "projectName": "JustJava_1d069ec7"
+        },
+        {
+            "type": "java",
             "name": "nine",
             "request": "launch",
             "mainClass": "nine",
